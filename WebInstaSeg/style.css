@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #4e4e4e;
+  color: white;
+  padding: 3em;
+  text-align: center;
+}
+
+.navber ul{
+  margin-left: auto;
+  text-align: center;
+  background-color: #333;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+}
+.navber a{
+  font-size: 16px;
+  margin-left: 100px;
+  color: rgba(8, 1, 1, 0.911);
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navber a:hover{
+  background-color: hsla(59, 82%, 41%, 0.842);
+}
+.navber li{
+  list-style-type: none;
+  float: left;
+}
+
+.logo {
+  margin-top: -20px;
+  width: 300px;
+  height: auto;
+  vertical-align: middle;
+  border: 0 solid #4e4e4e;
+  border-radius: 150px;
+}
+
+main {
+  background-color: rgba(221, 236, 10, 0.918);
+  padding: 2em;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  background-color: white;
+}
+
+button {
+  background-color: #4e4e4e;
+  color: rgb(221, 236, 10);
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #4e4e4e;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+h1{
+  margin-top: 20px;
+  text-shadow: 5px 5px 15px rgba(10, 10, 0, 0.753);
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(251, 255, 0);
+}
+
+p{
+  margin-left: 15px;
+}
+h2 , h3, h4{
+  text-align: left;
+  font-size: 22px;
+}
+
+ul{
+  margin-top: -10px;
+  margin-left: 15px;
+}
